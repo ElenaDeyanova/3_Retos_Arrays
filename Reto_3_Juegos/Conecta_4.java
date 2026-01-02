@@ -110,7 +110,7 @@ public class Conecta_4 {
 
 
     static boolean ganaPorFilas(char[][] tablero, char jugador){ // comprueba si se gana por filas 
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 6; i++) { // esta fatal, falta arreglar esto
             for (int j = 0; j < 7; j+=4) {
                 if (tablero[i][j] == jugador) {
                     return true; 
